@@ -1,0 +1,152 @@
+body {
+	background-color: black;
+	color: #F0DFD1;
+	font-size:16px;
+}
+
+#navbar1{                               /*navbar1*/
+    background-color: #F0DFD1;
+  	height: 150px;
+	width: 100%;
+}
+
+#navbar2{                               /*navbar1*/
+    background-color: #F0DFD1;
+  	height: 20px;
+	width: 100%;
+}
+
+#logo{                       /*logo*/
+    margin-left: 0px;
+    height: 150px;
+    margin-right:40px;
+}
+
+#collegamento{                /*collegamenti MENU)*/
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    outline: 3px groove black;
+    margin-right:20px;
+    padding:5px;
+}
+
+#collegamento2 {           /*collegamenti in alto a DX*/
+    color: red;
+    margin-right:20px;
+}
+
+#collegamento2:hover{
+    text-decoration: underline;
+}
+
+h6#headfoot{ 
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    font-weight:bold;
+    text-align:left;
+
+}
+
+#copyright {
+	font-size:10px;
+	text-align:center;
+}
+
+
+/*carrello e wish*/
+.bottone{
+    background-color: white;
+    border-color: black !important;
+}
+.bottone:hover{
+    background-color: rgb(233, 229, 229);
+}
+/*fine carrello e wish*/
+
+/*carello*/
+#carrello{
+    margin-left: 15%;
+    border-width: 2.5px !important;
+}
+/*fine carrello*/
+
+/*wishlist*/
+#wishlist{
+    margin-left: 10px ;
+    margin-right: 15% ;
+    border-width: 2.5px !important;
+}
+/*fine carrello*/
+
+#collegamento3{           
+    color:white;
+    font-weight: bold;
+}
+#collegamento3:hover{
+    color: black;
+    background-color: white;
+}
+
+#tastino1{   /*tastino responsive prima barra*/
+   background-color:white;
+    border-color:  rgb(0, 0, 0);
+    border-width: medium;
+}
+
+
+#tastino2{   /*tastino responsive prima barra*/
+    background-color:white;
+    border-color: rgb(59, 57, 57);
+    border-width: medium;
+}
+
+#togg{
+    background-color: white;
+}
+
+/*media query*/
+@media (max-width: 575.98px) { 
+    #collegamento{                /*collegamenti in alto a DX(ACCEDI E REGISTRATI)*/
+        border-left-width: 0px;
+    }
+    #wishlist{
+    margin-right: 0px;
+    margin-bottom: 15%;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    #collegamento{                /*collegamenti in alto a DX(ACCEDI E REGISTRATI)*/
+        border-left-width: 0px;
+    }
+    #wishlist{
+    margin-right: 0px;
+    margin-bottom: 15%;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #collegamento{                /*collegamenti in alto a DX(ACCEDI E REGISTRATI)*/
+        border-left-width: 0px;
+        
+    }
+    #wishlist{
+    margin-right: 0px;
+    margin-bottom: 3%;
+    }
+
+	#logo{                       /*logo*/
+    	margin-left: 5%;
+	}
+}
+
+
+@media (max-width: 325px) {
+    #logo{                       /*logo*/
+    	display:none;
+	}
+}
